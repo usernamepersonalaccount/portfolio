@@ -1,0 +1,52 @@
+body{
+  font-family: 'Satisfy', cursive;
+   margin:0;
+   padding:0;
+   background: black;
+}
+
+.navigation{
+   border: 1px white;
+   display: flex;
+   margin:0;
+   padding:0;
+   justify-content:center;
+   background: white;
+
+}
+
+.navigation li {
+  margin: 6px;
+  padding: 6px;
+  flex-direction:row;
+  list-style: none;
+  font-size:150%;
+}
+
+a{
+  text-decoration:none;
+}
+
+.about{
+  font-family:'Rock Salt', cursive;
+  background: black;
+  color: white;
+  }
+
+.brunchandlunch{
+  font-family: 'Rock Salt', cursive;
+  background: black;
+  color: white;
+}
+
+.dessert{
+  font-family: 'Rock Salt', cursive;
+  background: black;
+  color: white;
+}
+
+.dinner{
+  font-family: 'Rock Salt', cursive;
+  background: black;
+  color: white;
+}

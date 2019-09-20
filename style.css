@@ -2,13 +2,13 @@ body{
   font-family: 'Satisfy', cursive;
    margin:0;
    padding:0;
-   background: black;
+   background: #34495E
 }
 
 .navigation{
    justify-content:top;
    color: white;
-   transform: rotate(90deg);
+   /* transform: rotate(90deg); */
    transform-origin: top;
    width: 200px;
    font-size: 2em;
@@ -28,44 +28,44 @@ a{
 
 .about{
   font-family:'Rock Salt', cursive;
-  background: black;
+  background: #34495E;
   color: white;
   }
 
 .brunchandlunch{
   font-family: 'Rock Salt', cursive;
-  background: black;
+  background: #34495E;
   color: white;
 }
 
 .dessert{
   font-family: 'Rock Salt', cursive;
-  background: black;
+  background: #34495E;
   color: white;
 }
 
 .dinner{
   font-family: 'Rock Salt', cursive;
-  background: black;
+  background: #34495E;
   color: white;
 }
 
 .div1 {
   height: 4000px;
-  background-color: black;
+  background-color: #34495E;
 }
 
 .div2 {
   height: 3000px;
-  background-color: black;
+  background-color: #34495E;
 }
 
 .div3 {
   height: 2000px;
-  background-color: black;
+  background-color: #34495E;
 }
 
 .div4 {
   height: 1000px;
-  background-color: black;
+  background-color: #34495E;
 }

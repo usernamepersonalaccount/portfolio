@@ -6,19 +6,18 @@ body{
 }
 
 .navigation{
-   border: 1px white;
-   display: flex;
-   margin:0;
-   padding:0;
-   justify-content:center;
-   background: white;
-
+   justify-content:top;
+   color: white;
+   transform: rotate(90deg);
+   transform-origin: top;
+   width: 200px;
+   font-size: 2em;
+   margin-top: 100px;
 }
 
 .navigation li {
   margin: 6px;
   padding: 6px;
-  flex-direction:row;
   list-style: none;
   font-size:150%;
 }

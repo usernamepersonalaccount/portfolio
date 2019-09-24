@@ -63,25 +63,25 @@ html {
   scroll-behavior: smooth;
 }
 
-.about{
+#about{
   font-family:'Rock Salt', cursive;
   background: #34495E;
   color: white;
   }
 
-.brunchandlunch{
+#brunchandlunch{
   font-family: 'Rock Salt', cursive;
   background: #34495E;
   color: white;
 }
 
-.dessert{
+#dessert{
   font-family: 'Rock Salt', cursive;
   background: #34495E;
   color: white;
 }
 
-.dinner{
+#dinner{
   font-family: 'Rock Salt', cursive;
   background: #34495E;
   color: white;

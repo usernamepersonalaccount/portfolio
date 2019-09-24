@@ -8,12 +8,32 @@
   </head>
   <body>
       <!-- THIS IS THE NAVIGATION BAR-->
-      <ul class="navigation">
-          <a href="about.html"><li> About</li></a>
-          <a href="Brunch&Lunch.html"><li> Brunch&Lunch</li></a>
-          <a href="Dessert.html"><li> Deseart</li></a>
-          <a href="Dinner.html"><li> Dinner</li></a>
      </ul>
+     <div id="navbar">
+       <a href="index.html"><li> Home Page</li></a>
+       <a href="about.html"><li> About</li></a>
+       <a href="brunch&Lunch.html"><li> Brunch&Lunch</li></a>
+       <a href="dessert.html"><li> Deseart</li></a>
+       <a href="dinner.html"><li> Dinner</li></a>
+    </div>
+  <div class="content">
+   </body>
+   <script>
+   window.onscroll = function() {myFunction()};
+
+   var navbar = document.getElementById("navbar");
+   var sticky = navbar.offsetTop;
+
+   function myFunction() {
+     if (window.pageYOffset >= sticky) {
+       navbar.classList.add("sticky")
+     } else {
+       navbar.classList.remove("sticky");
+     }
+   }
+   </script>
+     <img src="https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.15752-9/70797829_528708187941684_6512879491302293504_n.jpg?_nc_cat=103&_nc_oc=AQkGd9T8Jqpti5cxlUpgUF2hz0J7hPmwMgVvNbD0kIPgBtJN5mF-PPDbylSsWyD_OJRpHLQ3nh3_uyyxWEDFYGOr&_nc_ht=scontent.ftpe7-3.fna&oh=ea1cdef7dc50f522f495d8045d126db7&oe=5DFC4A7C" alt="picture" width="1450" height="750">
+
 
   </body>
 </html>

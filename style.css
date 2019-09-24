@@ -63,46 +63,26 @@ html {
   scroll-behavior: smooth;
 }
 
-#about{
+.about{
   font-family:'Rock Salt', cursive;
   background: #34495E;
   color: white;
   }
 
-#brunchandlunch{
+.brunchandlunch{
   font-family: 'Rock Salt', cursive;
   background: #34495E;
   color: white;
 }
 
-#dessert{
+.dessert{
   font-family: 'Rock Salt', cursive;
   background: #34495E;
   color: white;
 }
 
-#dinner{
+.dinner{
   font-family: 'Rock Salt', cursive;
   background: #34495E;
   color: white;
-}
-
-.div1 {
-  /* height: 4000px; */
-  background-color: #34495E;
-}
-
-.div2 {
-  /* height: 3900px; */
-  background-color: #34495E;
-}
-
-.div3 {
-  /* height: 38000px; */
-  background-color: #34495E;
-}
-
-.div4 {
-  /* height: 3700px; */
-  background-color: #34495E;
 }

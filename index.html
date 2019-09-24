@@ -5,36 +5,39 @@
       <link rel="stylesheet" href="style.css">
       <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-      <!-- THIS IS THE NAVIGATION BAR-->
-      <ul class="navigation">
-          <a href="about.html"><li>About</li></a>
-          <a href="brunch&lunch.html"><li> Brunch&Lunch </li></a>
-          <a href="dessert.html"><li> Brunch&Lunch </li></a>
-          <a href="dinner.html"><li> Dinner </li></a>
 
-          <!-- Page Content -->
+  <!-- THIS IS THE NAVIGATION BAR-->
+    <div id="navbar">
+      <a href="#about"><li> About </li>
+      <a href="#brunch&lunch"><li>Brunch&Lunch</li>
+      <a href="#dessert"><li>Dessert</li>
+      <a href="#dinner"><li>Dinner</li>
+    </div>
+  <div class="navigation">
 
-          <div class="div1">
+   <script>
+   window.onscroll = function() {myFunction()};
 
-          </div>
-          <div class="div2" id="Brunch&Lunch.html">
+   var navbar = document.getElementById("navbar");
+   var sticky = navbar.offsetTop;
 
-          </div>
-          <div class="div3" id="Dessert.html">
-
-          </div>
-          <div class="div4" id="Dinner.html">
-
-          </div>
-
-     </ul>
-
-   </body>
+   function myFunction() {
+     if (window.pageYOffset >= sticky) {
+       navbar.classList.add("sticky")
+     } else {
+       navbar.classList.remove("sticky");
+     }
+   }
+   </script>
+ </body>
 </html>
 
+<!-- about-->
 <body>
+  <div class="div1" >
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
 <!-- THIS IS ABOUT BAR-->
@@ -50,12 +53,11 @@
   </p>
   </ul>
 
-<a href="https://www.instagram.com/zhen_11.22/">Sweets Images</a>
-</p>
-
 </body>
 
+<!--brunch&lunch-->
 <body>
+  <div class="div2" id=" brunch&lunch ">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
   <!-- THIS IS BRUNCH&LUNCH BAR-->
@@ -72,6 +74,7 @@
 </body>
 
 <body>
+  <div class="div3" id=" dessert ">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
   <!-- THIS IS DESSERT BAR-->
@@ -86,6 +89,7 @@
 </body>
 
 <body>
+  <div class="div4" id=" dinner ">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
   <!-- THIS IS DINNER BAR-->
@@ -98,6 +102,7 @@
   </p>
 <img src="https://scontent.ftpe8-3.fna.fbcdn.net/v/t1.15752-9/s2048x2048/69555081_2523333994562122_63447382905323520_n.jpg?_nc_cat=107&_nc_oc=AQmosBBhZrT4p0kCgaf-Cl88Vv_FIfGkvHMpKAAvCf5_pogY1n4butNzimnz0cxg2sw&_nc_ht=scontent.ftpe8-3.fna&oh=d25546f95c0945b11894bad27181ce91&oe=5DEF7AE7" float="up"alt="korea tofu pot" width="312.5" height="480">
 <img src="https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/69735526_517905185639462_2502894760134443008_n.jpg?_nc_cat=105&_nc_oc=AQk1OP_96ETIMA2QOCCAi-YU63yD3ywcHPE2rBWzF0lBzWlS-o4lMmSR_wL4TCq4uoc&_nc_ht=scontent.ftpe8-1.fna&oh=1c1b66db79048fe21f489e3900bb74f1&oe=5E394C7D" float="up"alt="thai green curry" width="350" height="420">
+
 </body>
 
 </html>
